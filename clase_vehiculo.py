@@ -9,5 +9,3 @@ class vehiculo:
         return f"vehiculo: patente[{self.patente}],marca: [{self.marca}],modelo: [{self.año}]"
     
     
-v=vehiculo("cku44","renault","gol",1998)
-print (v.mostrar_vehiculo())
